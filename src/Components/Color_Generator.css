@@ -1,0 +1,50 @@
+.Button-Color-Box-Container {
+    display: flex;
+    width: 500px;
+}
+
+.Color-Box {
+    border: 0.5px white solid;
+    min-height: 30vh;
+    width: 300px;
+}
+
+.ColorNameAndButtonBox {
+    min-height: 30vh;
+    width: 200px;
+}
+
+.ColorName {
+    width: 99.5%;
+    font-size: 20px;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid white;
+}
+
+.GenerateButton {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #1d5c8a;
+    border: 0px;
+    min-height: 10vh;
+    font-size: 20px;
+    color: aqua;
+    border: 0.5px solid white;
+}
+
+.CopyButton {
+    width: 100%;
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: #66081e;
+    border: 0px;
+    min-height: 10vh;
+    font-size: 20px;
+    color: aqua;
+    border: 0.5px solid white;
+}
